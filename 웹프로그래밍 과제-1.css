@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  animation: fade-in 1s ease-in forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+header {
+  background-image: url('images/AI.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 20px;
+}
+
+#myImage {
+  margin-top : 10px;
+}
+
+#infoContainer {
+  display: flex;
+  align-items: center; /* 컨테이너 안의 요소들을 수직으로 가운데정렬 */
+}
+
+#Info {
+  flex: 1;
+  margin-left : 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+h2 {
+  font-size : 30px;
+}
+
+ul.no_mark {
+  list-style: none;
+  padding: 0;
+}
+
+section {
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+}
+
+section.setColor{
+  background-color: #EFF2F8;
+}
+
+
+.link-text {
+  color: #999;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+fieldset {
+  width : 400px;
+}
+
+fieldset legend {
+  font-size : 20px;
+}
+
+fieldset label {
+  margin-top : 10px;
+}
+
+fieldset input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+div.button-container {
+  display: flex;  /* 수평배치 */
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.button-container input[type="submit"],
+.button-container input[type="reset"] {
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+form fieldset {
+  border-radius: 10px;
+}
+
+form label{
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input{
+  padding: 5px;
+  width: 100%;
+}
+
+summary{
+  font-size : 20px;
+}
+
+.fitP{
+  margin-left: 20px
+}
+
+canvas{
+  display: block;
+  margin: 0 auto;
+}
